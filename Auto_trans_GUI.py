@@ -93,7 +93,7 @@ wav_entry = tk.Entry(auto_trans_page)
 wav_entry.pack()
 
 # Create a checkbox for transcription writing
-trans_check = tk.Checkbutton(auto_trans_page, text="Write transcriptions automatically", variable=trans_check_var)
+trans_check = ttk.Checkbutton(auto_trans_page, text="Write transcriptions automatically", variable=trans_check_var)
 trans_check.pack()
 
 # Create a "Run" button
