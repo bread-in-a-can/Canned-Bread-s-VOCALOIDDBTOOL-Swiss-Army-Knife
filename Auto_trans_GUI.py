@@ -77,16 +77,16 @@ def run_auto_trans():
                     break
 
         trans_file.close()
-        
-def browse_wav_directory():
-    wav_directory = filedialog.askdirectory()  # Open directory dialog
-    wav_entry.delete(0, tk.END)  # Clear any previous input
-    wav_entry.insert(0, wav_directory)  # Insert selected directory path
     
     result_text.config(state=tk.NORMAL)
     result_text.delete("1.0", tk.END)
     result_text.insert(tk.END, "Process Completed!")
     result_text.config(state=tk.DISABLED)
+
+def browse_wav_directory():
+    wav_directory = filedialog.askdirectory()  # Open directory dialog
+    wav_entry.delete(0, tk.END)  # Clear any previous input
+    wav_entry.insert(0, wav_directory)  # Insert selected directory path
 
 # Create a frame for the Auto-trans page
 auto_trans_page = tk.Frame(root)
