@@ -21,7 +21,7 @@ Please let me know if anything needs changes!
 
 DOWNLOAD FROM RELEASES IT HAS ALL FILES NEEDED!
 
-# HOW TO UPADATE
+# HOW TO UPDATE
 
 Download the code in a zip and replace the python files
 
