@@ -88,7 +88,7 @@ oto_ini_button_frame.grid(row=0, column=1, padx=10, pady=(30, 10))
 
 # Run button for "Your Script 1"
 def run_your_script_1():
-    script_path = "cannedbread_genon2db_GUI.py"  # Replace with your script path
+    script_path = "cannedbread_genon2db_GUI.py"  
     output = run_script(script_path)
     oto_ini_output_text.config(state=tk.NORMAL)
     oto_ini_output_text.delete("1.0", tk.END)
@@ -100,7 +100,7 @@ run_button_your_script_1.pack(pady=10)
 
 # Run button for "Your Script 2"
 def run_your_script_2():
-    script_path = "lab2seg_GUI.py"  # Replace with your script path
+    script_path = "lab2seg_GUI.py"  
     output = run_script(script_path)
     oto_ini_output_text.config(state=tk.NORMAL)
     oto_ini_output_text.delete("1.0", tk.END)
@@ -132,7 +132,7 @@ misc_tools_button_frame.grid(row=0, column=1, padx=10, pady=(30, 10))
 
 # Run button for "Phoneme Grabber"
 def run_phoneme_grabber():
-    script_path = "phoneme_grabber_GUI.py"  # Replace with your script path
+    script_path = "phoneme_grabber_GUI.py"  
     output = run_script(script_path)
     trans_tools_output_text.config(state=tk.NORMAL)
     trans_tools_output_text.delete("1.0", tk.END)
@@ -144,7 +144,7 @@ run_button_phoneme_grabber.pack(pady=10)
 
 # Run button for "Your Script 3" (Miscellaneous script 1)
 def run_misc_script_1():
-    script_path = "convert_kana_GUI.py"  # Replace with your script path
+    script_path = "convert_kana_GUI.py"  
     output = run_script(script_path)
     misc_tools_output_text.config(state=tk.NORMAL)
     misc_tools_output_text.delete("1.0", tk.END)
@@ -156,7 +156,7 @@ run_button_misc_script_1.pack(pady=10)
 
 # Run button for "Your Script 4" (Miscellaneous script 2)
 def run_misc_script_2():
-    script_path = "kiritan_script_GUI.py"  # Replace with your script path
+    script_path = "kiritan_script_GUI.py" 
     output = run_script(script_path)
     misc_tools_output_text.config(state=tk.NORMAL)
     misc_tools_output_text.delete("1.0", tk.END)
