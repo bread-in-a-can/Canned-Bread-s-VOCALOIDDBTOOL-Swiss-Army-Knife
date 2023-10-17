@@ -3,6 +3,7 @@ from tkinter import ttk
 import subprocess
 import glob
 import json
+from tkinter import filedialog  # Import filedialog
 from os import path
 
 # Create a tkinter window
@@ -76,7 +77,12 @@ def run_auto_trans():
                     break
 
         trans_file.close()
-
+        
+def browse_wav_directory():
+    wav_directory = filedialog.askdirectory()  # Open directory dialog
+    wav_entry.delete(0, tk.END)  # Clear any previous input
+    wav_entry.insert(0, wav_directory)  # Insert selected directory path
+    
     result_text.config(state=tk.NORMAL)
     result_text.delete("1.0", tk.END)
     result_text.insert(tk.END, "Process Completed!")
@@ -91,6 +97,8 @@ wav_label = tk.Label(auto_trans_page, text="Enter wav directory:")
 wav_label.pack()
 wav_entry = tk.Entry(auto_trans_page)
 wav_entry.pack()
+browse_button = ttk.Button(auto_trans_page, text="Browse", command=browse_wav_directory)
+browse_button.pack()
 
 # Create a checkbox for transcription writing
 trans_check = ttk.Checkbutton(auto_trans_page, text="Write transcriptions automatically", variable=trans_check_var)
