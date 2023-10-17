@@ -1,0 +1,200 @@
+[
+  {
+    "kana": "-",
+    "romaji": "Sil",
+    "phoneme": "Sil",
+    "type": "basic"
+  },
+  {
+    "kana": "a",
+    "romaji": "a",
+    "phoneme": "a",
+    "type": "basic"
+  },
+  {
+    "kana": "b",
+    "romaji": "b",
+    "phoneme": "b",
+    "type": "basic"
+  },
+  {
+    "kana": "by",
+    "romaji": "by",
+    "phoneme": "b'",
+    "type": "youon"
+  },
+  {
+    "kana": "ch",
+    "romaji": "ch",
+    "phoneme": "tS",
+    "type": "basic"
+  },
+  {
+    "kana": "d",
+    "romaji": "d",
+    "phoneme": "d",
+    "type": "basic"
+  },
+  {
+    "kana": "e",
+    "romaji": "e",
+    "phoneme": "e",
+    "type": "basic"
+  },
+  {
+    "kana": "g",
+    "romaji": "g",
+    "phoneme": "g",
+    "type": "basic"
+  },
+  {
+    "kana": "gy",
+    "romaji": "gy",
+    "phoneme": "g'",
+    "type": "youon"
+  },
+  {
+    "kana": "h",
+    "romaji": "h",
+    "phoneme": "h",
+    "type": "basic"
+  },
+  {
+    "kana": "hy",
+    "romaji": "hy",
+    "phoneme": "C",
+    "type": "youon"
+  },
+  {
+    "kana": "i",
+    "romaji": "i",
+    "phoneme": "i",
+    "type": "basic"
+  },
+  {
+    "kana": "j",
+    "romaji": "j",
+    "phoneme": "dZ",
+    "type": "basic"
+  },
+  {
+    "kana": "k",
+    "romaji": "k",
+    "phoneme": "k",
+    "type": "basic"
+  },
+  {
+    "kana": "ky",
+    "romaji": "ky",
+    "phoneme": "k'",
+    "type": "youon"
+  },
+  {
+    "kana": "m",
+    "romaji": "m",
+    "phoneme": "m",
+    "type": "basic"
+  },
+  {
+    "kana": "my",
+    "romaji": "my",
+    "phoneme": "m'",
+    "type": "youon"
+  },
+  {
+    "kana": "n",
+    "romaji": "n",
+    "phoneme": "n",
+    "type": "basic"
+  },
+  {
+    "kana": "ny",
+    "romaji": "ny",
+    "phoneme": "J",
+    "type": "basic"
+  },
+  {
+    "kana": "o",
+    "romaji": "o",
+    "phoneme": "o",
+    "type": "basic"
+  },
+  {
+    "kana": "p",
+    "romaji": "p",
+    "phoneme": "p",
+    "type": "basic"
+  },
+  {
+    "kana": "py",
+    "romaji": "py",
+    "phoneme": "p I",
+    "type": "youon"
+  },
+  {
+    "kana": "r",
+    "romaji": "r",
+    "phoneme": "4",
+    "type": "basic"
+  },
+  {
+    "kana": "ry",
+    "romaji": "ry",
+    "phoneme": "J I",
+    "type": "youon"
+  },
+  {
+    "kana": "s",
+    "romaji": "s",
+    "phoneme": "s",
+    "type": "basic"
+  },
+  {
+    "kana": "sh",
+    "romaji": "sh",
+    "phoneme": "S",
+    "type": "basic"
+  },
+  {
+    "kana": "t",
+    "romaji": "t",
+    "phoneme": "t",
+    "type": "basic"
+  },
+  {
+    "kana": "ts",
+    "romaji": "ts",
+    "phoneme": "ts",
+    "type": "basic"
+  },
+  {
+    "kana": "u",
+    "romaji": "u",
+    "phoneme": "M",
+    "type": "basic"
+  },
+  {
+    "kana": "w",
+    "romaji": "w",
+    "phoneme": "w",
+    "type": "basic"
+  },
+  {
+    "kana": "y",
+    "romaji": "y",
+    "phoneme": "j",
+    "type": "basic"
+  },
+  {
+    "kana": "z",
+    "romaji": "z",
+    "phoneme": "z",
+    "type": "basic"
+  },
+  {
+    "kana": "  ",
+    "romaji": "iki",
+    "phoneme": "br",
+    "type": "youon"
+  }
+]
