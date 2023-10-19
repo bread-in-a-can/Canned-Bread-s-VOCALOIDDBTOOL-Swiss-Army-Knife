@@ -57,7 +57,7 @@ run_button_auto_trans.pack(pady=10)
 
     
 def run_trans_convert():
-    script_path = "trans_convert_GUI.py"  # Replace with your script path
+    script_path = "trans_convert_GUI.py"  
     output = run_script(script_path)
     trans_tools_output_text.config(state=tk.NORMAL)
     trans_tools_output_text.delete("1.0", tk.END)
@@ -88,7 +88,7 @@ oto_ini_button_frame.grid(row=0, column=1, padx=10, pady=(30, 10))
 
 # Run button for "Your Script 1"
 def run_your_script_1():
-    script_path = "cannedbread_genon2db_GUI.py"  
+    script_path = "cannedbread_genon2db_GUI.py" 
     output = run_script(script_path)
     oto_ini_output_text.config(state=tk.NORMAL)
     oto_ini_output_text.delete("1.0", tk.END)
@@ -166,6 +166,30 @@ def run_misc_script_2():
 run_button_misc_script_2 = ttk.Button(misc_tools_button_frame, text="Run Phoneme Transfer (wonky)", style='Custom.TButton', command=run_misc_script_2)
 run_button_misc_script_2.pack(pady=10)
 
+# Run button for "Your Script 5" (Miscellaneous script 3)
+def run_misc_script_3():
+    script_path = "Sil-adder-GUI.py" 
+    output = run_script(script_path)
+    misc_tools_output_text.config(state=tk.NORMAL)
+    misc_tools_output_text.delete("1.0", tk.END)
+    misc_tools_output_text.insert(tk.END, output)
+    misc_tools_output_text.config(state=tk.DISABLED)
+
+run_button_misc_script_3 = ttk.Button(misc_tools_button_frame, text="Run Sil adder", style='Custom.TButton', command=run_misc_script_3)
+run_button_misc_script_3.pack(pady=10)
+
+# Run button for "Your Script 6" (Miscellaneous script 4)
+def run_misc_script_4():
+    script_path = "convert-phonemes-seg-GUI.py" 
+    output = run_script(script_path)
+    misc_tools_output_text.config(state=tk.NORMAL)
+    misc_tools_output_text.delete("1.0", tk.END)
+    misc_tools_output_text.insert(tk.END, output)
+    misc_tools_output_text.config(state=tk.DISABLED)
+
+run_button_misc_script_4 = ttk.Button(misc_tools_button_frame, text="Run Phoneme converter (seg)", style='Custom.TButton', command=run_misc_script_4)
+run_button_misc_script_4.pack(pady=10)
+
 # Output text widget for "Misc. Tools" page
 misc_tools_output_text = tk.Text(misc_tools_page, height=10, width=40, state=tk.DISABLED)
 misc_tools_output_text.grid(row=1, column=1)
@@ -181,7 +205,7 @@ misc_tools_description.grid(row=2, column=1, pady=(0, 10), columnspan=3)
 
 # Add the pages to the notebook
 notebook.add(trans_tools_page, text="Trans Tools")
-notebook.add(oto_ini_page, text="oto.ini _> seg file tools")
+notebook.add(oto_ini_page, text="oto.ini -> seg file tools")
 notebook.add(misc_tools_page, text="Misc. Tools")
 
 # Pack the notebook
