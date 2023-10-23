@@ -197,8 +197,7 @@ misc_tools_output_text.grid(row=1, column=1)
 # Create a Label widget with the desired text
 misc_tools_description = ttk.Label(
     misc_tools_page,
-    text="Phoneme Grabber is a tool that takes all of your phonemes from an oto.ini file and it generates a text file with all of the phonemes in it. It's useful for editing hiragana.json or phonemes.json.\nConvert Kana (lab) is a tool that converts kana in your labs to phonemes for the seg creation.\nPhoneme transfer is an experimental script that transfers phonemes from one seg file to another (for when you have a voicebank with many pitches and you want the timings to be different but the phonemes to be the same in a set of seg files).",
-    wraplength=400  # Adjust this value as needed to fit the text within the desired width
+    text="Phoneme Grabber is a tool that takes all of your phonemes from an oto.ini file and it generates a text file with all of the phonemes in it. It's useful for editing hiragana.json or phonemes.json.\nConvert Kana (lab) is a tool that converts kana in your labs to phonemes for the seg creation.\nPhoneme transfer is an experimental script that transfers phonemes from one seg file to another (for when you have a voicebank with many pitches and you want the timings to be different but the phonemes to be the same in a set of seg files\nSil adder is a tool to add Sil phonemes to the beginning of your .seg files.\nPhoneme comverter (seg) converts phonemes in your seg files.",    wraplength=400  # Adjust this value as needed to fit the text within the desired width
 )
 misc_tools_description.grid(row=2, column=1, pady=(0, 10), columnspan=3)
 
