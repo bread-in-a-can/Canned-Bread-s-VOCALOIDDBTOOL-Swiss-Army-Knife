@@ -1,6 +1,9 @@
 # Canned-Bread's VOCALOIDDBTOOL Swiss Army Knife
+
 Canned-Bread's VOCALOIDDBTOOL Swiss Army Knife, which allows you to do some pretty cool things for HOMEBREW VOCALOID development!
+
 Uses a modded Genon2NNSVS from https://github.com/oatsu-gh/genon2nnsvs
+
 Also uses a modded Auto-Trans from https://github.com/EgorV4/auto-trans
 
 Uses https://github.com/rdbende/Forest-ttk-theme
