@@ -1,5 +1,9 @@
 # Canned-Bread's VOCALOIDDBTOOL Swiss Army Knife
 
+# UPDATE ON THE TOOL!
+
+Since other tools are better and more useful, I decided to archive this tool since I'm not working in the vocal synth space anymore... Sorry...
+
 Canned-Bread's VOCALOIDDBTOOL Swiss Army Knife, which allows you to do some pretty cool things for HOMEBREW VOCALOID development!
 
 Uses a modded Genon2NNSVS from https://github.com/oatsu-gh/genon2nnsvs
